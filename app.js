@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const router = require('./routers/WhatsappRouter')
 
-const port = 3000
+const port = 8000
 
 app.use('/', router)
 
